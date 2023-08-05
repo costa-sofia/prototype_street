@@ -90,7 +90,7 @@ header li:hover svg
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 80vh;
+    height: 83vh;
     background-image: url(https://cdn.pixabay.com/photo/2018/07/20/01/42/rio-de-janeiro-3549798_1280.jpg);
     background-position: center;
     background-attachment: fixed;
@@ -111,9 +111,15 @@ header li:hover svg
     color: white;
     border: solid 2px white;
     width: 41vh;
+    transition: 1s;
 }
 #banner:hover
 {
     filter: saturate(3);
 }
+#banner a:hover
+{
+    background-color: rgba(43, 38, 38, 0.483);
+}
+
 
