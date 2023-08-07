@@ -316,7 +316,32 @@ header li:hover svg
     box-shadow: 10px 30px 30px 10px #8a00fb42;
     grid-row: span 2;
 }
-
-
 /* gallery presentation end */
+
+/* footer start*/
+footer
+{
+    margin-top: 10vh;
+}
+footer div
+{
+    display: inline;
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+footer svg
+{
+    fill: #8C00FB;
+}
+
+footer a 
+{
+    color: #8C00FB;
+    cursor: pointer;
+}
+
+/* footer end*/
 
