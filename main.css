@@ -39,6 +39,10 @@ header svg
 {
     fill: white
 }
+header a
+{
+    text-decoration: none;
+}
 
 #menu svg
 {
