@@ -1,0 +1,165 @@
+*{box-sizing: border-box;}
+
+body
+{
+    font-family:'Langar', cursive;;
+    border: none;
+    margin: 0;
+    background-color: rgba(0, 0, 0);
+    color: white;  
+}
+
+/*header start*/
+header
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10% 0 10%;
+}
+header h1
+{
+    font-family: 'Kavoon', cursive;
+    font-size: 2.5em;
+    background: linear-gradient(180deg, #8C00FB 21.88%, rgba(255, 10, 186, 0.72) 99.98%, rgba(248, 47, 240, 0.07) 99.99%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+header ul
+{
+    display: flex;
+    gap: 30%;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header svg
+{
+    fill: white
+}
+header a
+{
+    text-decoration: none;
+}
+#spray
+{
+    fill:#9f33f8;
+}
+
+#menu svg
+{
+    position: relative;
+}
+.menuInfo
+{
+    position: absolute;
+    display: none;
+}
+
+#photographs
+{ 
+    right: 30vh;
+    top: 7vh;
+}
+
+#paintings
+{
+    right: 26vh;
+    top: 7vh;
+}
+#register
+{ 
+    right: 19.5vh;
+    top: 7vh;
+}
+#login
+{
+    right: 14vh;
+    top: 7vh;
+}
+header li:hover svg
+{
+    fill:#9f33f8;
+    
+}
+
+#menu li:hover p
+{
+    display: block;
+    color:#9f33f8; 
+}
+/*header end*/
+
+/* banner start */
+#banner
+{
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 83vh;
+    background-image: url(https://cdn.pixabay.com/photo/2017/04/25/00/10/grafitti-2258238_1280.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: saturate(0);
+    text-align: center;
+    transition: 1s;
+}
+#banner span
+{
+    font-size: 1.5em;  
+}
+#banner a
+{   
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: solid 2px white;
+    width: 41vh;
+    transition: 1s;
+    
+}
+#banner:hover
+{
+    filter: saturate(2);
+}
+#banner a:hover
+{
+    background-color: rgba(43, 38, 38, 0.483);
+}
+/* banner end */
+
+
+
+
+
+/* footer start*/
+footer
+{
+    margin-top: 10vh;
+}
+footer div
+{
+    display: inline;
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+footer svg
+{
+    fill: #8C00FB;
+}
+
+footer a 
+{
+    color: #8C00FB;
+    cursor: pointer;
+}
+
+/* footer end*/
+
