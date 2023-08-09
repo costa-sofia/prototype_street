@@ -44,37 +44,62 @@ header a
     text-decoration: none;
 }
 
-#menu svg
+#menu li
 {
     position: relative;
+    text-align: center;
 }
 .menuInfo
 {
     position: absolute;
-    display: none;
+    display: none; 
 }
 
 #photographs
 { 
-    right: 30vh;
-    top: 7vh;
+    display: block;
+    top: 1vh;
+    right: -2.6vw;
 }
 
 #paintings
 {
-    right: 26vh;
-    top: 7vh;
+    top: 1vh;
+    right: -1.5vw;
 }
 #register
 { 
-    right: 19.5vh;
-    top: 7vh;
+    display: block;
+    top: 1vh;
+    right: -1.4vw;
 }
 #login
 {
-    right: 14vh;
-    top: 7vh;
-}
+    top: 1vh;
+    right: -0.7vw;
+} 
+
+/* @media screen and (min-width: 1252px)
+{
+    #photographs
+    { 
+        left: -1.8vw;
+    }
+
+    #paintings
+    {
+        left: -1.4vw;
+    }
+    #register
+    { 
+        left: -1vw;
+    }
+    #login
+    {
+        left: -0.6vw;
+    }
+} */
+
 header li:hover svg
 {
     fill:#9f33f8;
@@ -234,7 +259,7 @@ header li:hover svg
 #locations div
 {
     height: 40vh;
-    width: 42vh;
+    width: 40vh;
     justify-self: center;
     border-radius: 50%;
     overflow: hidden;
