@@ -42,42 +42,63 @@ header a
 {
     text-decoration: none;
 }
-#spray
-{
-    fill:#9f33f8;
-}
 
-#menu svg
+#menu li
 {
     position: relative;
+    text-align: center;
 }
 .menuInfo
 {
     position: absolute;
-    display: none;
+    display: none; 
 }
 
 #photographs
 { 
-    right: 30vh;
-    top: 7vh;
+    display: block;
+    top: 1vh;
+    right: -2.6vw;
 }
 
 #paintings
 {
-    right: 26vh;
-    top: 7vh;
+    top: 1vh;
+    right: -1.5vw;
 }
 #register
 { 
-    right: 19.5vh;
-    top: 7vh;
+    display: block;
+    top: 1vh;
+    right: -1.4vw;
 }
 #login
 {
-    right: 14vh;
-    top: 7vh;
-}
+    top: 1vh;
+    right: -0.7vw;
+} 
+
+/* @media screen and (min-width: 1252px)
+{
+    #photographs
+    { 
+        left: -1.8vw;
+    }
+
+    #paintings
+    {
+        left: -1.4vw;
+    }
+    #register
+    { 
+        left: -1vw;
+    }
+    #login
+    {
+        left: -0.6vw;
+    }
+} */
+
 header li:hover svg
 {
     fill:#9f33f8;
@@ -100,7 +121,7 @@ header li:hover svg
     align-items: center;
     width: 100%;
     height: 83vh;
-    background-image: url(https://cdn.pixabay.com/photo/2017/04/25/00/10/grafitti-2258238_1280.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2018/07/20/01/42/rio-de-janeiro-3549798_1280.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -162,4 +183,3 @@ footer a
 }
 
 /* footer end*/
-
