@@ -153,7 +153,60 @@ header li:hover svg
 /* banner end */
 
 /* galery start */
+#gallery
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    gap: 5%;
+    padding: 0 5%;
 
+}
+
+.painting
+{
+    background-color: aliceblue;
+    height: 40vh;
+    width: 100%;
+    transition: 1s;
+    background-size: contain;
+}
+#painting1
+{
+    background-image: url(https://cdn.leonardo.ai/users/62103611-9796-4122-8589-b5731d68e6bd/generations/6c495a76-d1df-47cb-98a9-04c3e7f79f06/Ilustration_V2_city_painting_graffiti_0.jpg);
+}
+#gallery article:hover .painting
+{
+    box-shadow: 1px 1px 6px 8px #971cfb42; 
+    border: solid 2px #8C00FB;
+}
+
+.prices
+{
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    border: solid white 2px;
+    font-size: 2rem;
+    justify-content: right;
+    gap: 30%;
+    padding: 0 5%;
+
+}
+.prices p
+{
+    margin: 0%;
+}
+.prices svg
+{
+    fill: white;
+}
+#gallery article:hover .prices
+{
+    background: linear-gradient(180deg, #8a00fb5e 21.88%, rgba(255, 10, 186, 0.35) 99.98%, rgba(248, 47, 240, 0.07) 99.99%);
+}
 /* galery end */
 
 
