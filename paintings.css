@@ -171,16 +171,66 @@ header li:hover svg
     height: 40vh;
     width: 100%;
     transition: 1s;
-    background-size: contain;
+    background-size: cover;
+    
 }
+
 #painting1
 {
     background-image: url(https://cdn.leonardo.ai/users/62103611-9796-4122-8589-b5731d68e6bd/generations/6c495a76-d1df-47cb-98a9-04c3e7f79f06/Ilustration_V2_city_painting_graffiti_0.jpg);
+    
 }
+
+#painting2
+{
+    background-image: url(https://cdn.leonardo.ai/users/62103611-9796-4122-8589-b5731d68e6bd/generations/ca55acdf-22fc-424e-a2c6-55c1136d9ab9/variations/Default_favela_in_flames_graffiti_style_painting_0_ca55acdf-22fc-424e-a2c6-55c1136d9ab9_0.png);
+    background-size: 66vh;
+    background-position: center;
+}  
+
+
+#painting3
+{
+    background-image: url(https://cdn.leonardo.ai/users/62103611-9796-4122-8589-b5731d68e6bd/generations/09a01a55-c2af-455e-a8ea-bb85364c985b/Ilustration_V2_city_painting_graffiti_0.jpg);
+  
+}
+
+#painting4
+{
+    background-image: url(https://cdn.leonardo.ai/users/62103611-9796-4122-8589-b5731d68e6bd/generations/d315614f-a06a-40a9-bae6-d9f2f064f992/Ilustration_V2_butterfly_graffiti_painting_0.jpg);
+}
+
+#painting5
+{
+    background-image: url(https://cdn.leonardo.ai/users/62103611-9796-4122-8589-b5731d68e6bd/generations/0a088c65-143b-48ea-bb09-c13231e39d1e/Ilustration_V2_favela_hero_graffiti_0.jpg);
+}
+
+#painting6
+{
+    background-image: url(https://cdn.leonardo.ai/users/62103611-9796-4122-8589-b5731d68e6bd/generations/a6e85311-662d-458b-aeb5-0716e31734ef/Ilustration_V2_brazilian_indian_graffiti_0.jpg);
+}
+
+#painting7
+{
+    background-image: url(https://cdn.leonardo.ai/users/62103611-9796-4122-8589-b5731d68e6bd/generations/e0d395d5-6bed-4485-97c0-a14e51b8ceb8/Ilustration_V2_painting_hero_graffiti_0.jpg);
+}
+
+#painting8
+{
+    background-image: url(https://cdn.leonardo.ai/users/62103611-9796-4122-8589-b5731d68e6bd/generations/bbe5dec1-0635-4b52-9576-1d7cfa3dbaf1/Ilustration_V2_graffiti_style_painting_0.jpg);
+}  
+
+#painting9
+{
+    background-image: url(https://cdn.leonardo.ai/users/62103611-9796-4122-8589-b5731d68e6bd/generations/eca86354-6885-4361-bb52-96659d99ecdc/Ilustration_V2_dead_painting_graffiti_0.jpg);
+}
+
 #gallery article:hover .painting
 {
     box-shadow: 1px 1px 6px 8px #971cfb42; 
     border: solid 2px #8C00FB;
+    height: 50vh;
+    background-position: center;
 }
 
 .prices
@@ -213,7 +263,7 @@ header li:hover svg
 /* footer start*/
 footer
 {
-    margin-top: 10vh;
+    margin-top: 30vh;
 }
 footer div
 {
