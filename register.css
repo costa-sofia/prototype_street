@@ -152,6 +152,18 @@ form
     margin-bottom: 5vh;
 }
 
+#login
+{
+    text-decoration: underline;
+    background: none;
+    border: none;
+    margin-bottom: 5vh;
+    color: rgb(255, 252, 254);
+    font-family:'Langar', cursive;
+    font-size: 1.1rem;
+
+}
+
 .registerdata
 {
     background: none;
