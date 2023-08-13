@@ -69,7 +69,8 @@ header a
 #register
 { 
     top: 1vh;
-    right: -1.4vw;
+    right: -1vw;
+    white-space: nowrap;
 }
 #login
 {
