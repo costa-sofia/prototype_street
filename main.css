@@ -70,34 +70,13 @@ header a
 { 
     top: 1vh;
     right: -1vw;
-    white-space: nowrap;
 }
 #login
 {
     top: 1vh;
-    right: -0.7vw;
+    left: -1.3vw;
+    white-space: nowrap;
 } 
-
-/* @media screen and (min-width: 1252px)
-{
-    #photographs
-    { 
-        left: -1.8vw;
-    }
-
-    #paintings
-    {
-        left: -1.4vw;
-    }
-    #register
-    { 
-        left: -1vw;
-    }
-    #login
-    {
-        left: -0.6vw;
-    }
-} */
 
 header li:hover svg
 {

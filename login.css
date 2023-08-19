@@ -74,34 +74,13 @@ header a
 { 
     top: 1vh;
     right: -1vw;
-    white-space: nowrap;
 }
 #login
 {
     top: 1vh;
-    right: -0.7vw;
+    left: -1.3vw;
+    white-space: nowrap;
 } 
-
-/* @media screen and (min-width: 1252px)
-{
-    #photographs
-    { 
-        left: -1.8vw;
-    }
-
-    #paintings
-    {
-        left: -1.4vw;
-    }
-    #register
-    { 
-        left: -1vw;
-    }
-    #login
-    {
-        left: -0.6vw;
-    }
-} */
 
 header li:hover svg
 {
@@ -118,7 +97,7 @@ header li:hover svg
 
 section
 {
-    background-image: url(https://cdn.pixabay.com/photo/2019/06/13/22/43/graph-4272558_1280.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2020/02/26/12/22/grafitti-4881572_1280.jpg);
     background-color: rgba(0, 0, 0, 0.516);
     background-blend-mode: multiply;
     transition: 1s;
@@ -135,7 +114,7 @@ form
     display: grid;
     text-align: center;
     font-size: 1.5em;
-    padding: 0 5vh;
+    padding: 0 10vh;
 }
 
 #submit
@@ -185,7 +164,6 @@ form h1
     color:rgba(255, 255, 255, 0.837);
     margin: 5vh;
 }
-
 
 /* footer start*/
 footer
